@@ -1,1 +1,1 @@
-*
+report z_progress .
