@@ -1,5 +1,10 @@
 report z_progress .
 
+parameters: p_times1 type i default  15, "Immediately
+            p_times2 type i default  42. "Once per 10 seconds
+
+
+do p_times1 times.
 
 cl_progress_indicator=>progress_indicate(
   exporting
@@ -16,3 +21,6 @@ cl_progress_indicator=>progress_indicate(
 *  importing
 *    e_progress_sent      = e_progress_sent    " X = Progress Information Was Displayed
 ).
+    wait up to 1 seconds.
+
+enddo.
