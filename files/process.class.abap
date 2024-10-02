@@ -3,8 +3,19 @@ CLASS /yga/cl_transp_control DEFINITION
   FINAL
   CREATE PUBLIC .
 
+  PUBLIC SECTION.
 
+  PROTECTED SECTION.
 
+  PRIVATE SECTION.
+
+    "! <p class="shorttext synchronized" lang="pt">Exibe status de processamento</p>
+    METHODS progress
+      IMPORTING
+        !percent  TYPE i OPTIONAL
+        !total    TYPE i OPTIONAL
+        !currency TYPE i OPTIONAL
+        !message  TYPE char50 .
 
 
       "! <p class="shorttext synchronized" lang="pt">Salvar log de "Alteração de Status"</p>
@@ -15,6 +26,9 @@ CLASS /yga/cl_transp_control DEFINITION
 
 ENDCLASS.
 
+
+
+CLASS /yga/cl_transp_control IMPLEMENTATION.
 
 
 METHOD progress .
