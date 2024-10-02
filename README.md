@@ -5,9 +5,9 @@
 Implementacao para ser utilizada como modelo de _progress bar_.
 
 ## Necessidade ##
-Usar a mensagem de processamentos para informar o usuario o status da atividades em execução.
+Usar a mensagem de processamentos para informar o usuário o status da atividades em execução.
 
 ## Tecnologia adotada ##
-Existe um metodo statico que usa esse processamento e julguei ele melhor que a função para a necessidade.
+Existe um método estático que usa esse processamento e julguei ele melhor que a função para a necessidade.
 
 ## Solução ##
