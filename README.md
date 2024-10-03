@@ -1,6 +1,10 @@
-# Indicador de progressos #
+# Indicador de progressos 
+ 
+![Static Badge](https://img.shields.io/badge/development-abap-blue)
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/edmilson-nascimento/progress-indicator)
+![Static Badge](https://img.shields.io/badge/poo-abap-green)
 
-[![N|Solid](https://wiki.scn.sap.com/wiki/download/attachments/1710/ABAP%20Development.png?version=1&modificationDate=1446673897000&api=v2)](https://www.sap.com/brazil/developer.html)
+> 🗘 Este documento, assim como o negócio, está em constante fase de melhoria e adaptação.
 
 Implementação para ser utilizada como modelo de _progress bar_.
 
