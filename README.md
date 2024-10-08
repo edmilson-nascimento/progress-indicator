@@ -14,4 +14,5 @@ Usar a mensagem de processamentos para informar o usuário o status da atividade
 ## Tecnologia adotada
 Existe um método estático que usa esse processamento e julguei ele melhor que a função para a necessidade.
 
-## Solução ##
+## Solução
+.
