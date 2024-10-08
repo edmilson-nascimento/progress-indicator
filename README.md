@@ -8,7 +8,7 @@
 
 Implementação para ser utilizada como modelo de _progress bar_.
 
-## Necessidade ##
+## Necessidade
 Usar a mensagem de processamentos para informar o usuário o status da atividades em execução.
 
 ## Tecnologia adotada ##
